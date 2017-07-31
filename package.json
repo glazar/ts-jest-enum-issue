@@ -1,0 +1,19 @@
+{
+  "name": "ts-jest-enum-issue",
+  "version": "0.1.0",
+  "description": "circular dependency issue when using enums",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glazar/ts-jest-enum-issue.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts-jest",
+    "jest",
+    "enum"
+  ],
+  "author": "Gabriel Lazar"
+}
