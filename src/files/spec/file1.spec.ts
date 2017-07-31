@@ -1,4 +1,4 @@
-import { cube, square, ColorEnum, NumberEnum } from "../file1";
+import { cube, NumberEnum, square } from "../file1";
 
 describe("file1", () => {
   it("should square numbers", () => {
@@ -7,12 +7,6 @@ describe("file1", () => {
 
   it("should cube numbers", () => {
     expect(cube(3)).toBe(27);
-  });
-
-  it("should expose color enum", () => {
-    expect(ColorEnum.Red).toBe("RED");
-    expect(ColorEnum.Green).toBe("GREEN");
-    expect(ColorEnum.Blue).toBe("BLUE");
   });
 
   it("should expose number enum", () => {
